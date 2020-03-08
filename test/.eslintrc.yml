@@ -1,0 +1,9 @@
+env:
+  jest: true
+  jest/globals: true
+extends:
+  - plugin:jest/recommended
+plugins:
+  - jest
+rules:
+  no-console: "pff"

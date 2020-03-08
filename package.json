@@ -1,0 +1,32 @@
+{
+  "name": "env-yml",
+  "version": "1.0.0",
+  "description": "Environment variable loader using yml files",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/thalesfp/node-env-yml.git"
+  },
+  "author": "Thales Pereira <thalesfp@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thalesfp/node-env-yml/issues"
+  },
+  "homepage": "https://github.com/thalesfp/node-env-yml#readme",
+  "dependencies": {
+    "js-yaml": "^3.13.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.1.4",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "jest": "^25.1.0",
+    "prettier": "^1.19.1"
+  }
+}
