@@ -1,5 +1,5 @@
 # Node Env YML
-[![Build Status](https://travis-ci.com/thalesfp/node-env-yml.svg?branch=master)](https://travis-ci.com/thalesfp/node-env-yml)
+[![Build Status](https://travis-ci.org/thalesfp/node-env-yml.svg?branch=master)](https://travis-ci.org/thalesfp/node-env-yml)
 
 Environment variable loader using yml files.
 
