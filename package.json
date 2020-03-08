@@ -2,7 +2,7 @@
   "name": "env-yml",
   "version": "1.0.0",
   "description": "Environment variable loader using yml files",
-  "main": "index.js",
+  "main": "./src/load.js",
   "scripts": {
     "test": "jest"
   },

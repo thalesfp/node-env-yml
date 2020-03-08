@@ -22,4 +22,4 @@ const parse = (object, env) => {
   return parsedObject;
 };
 
-module.exports = { parse };
+module.exports = parse;

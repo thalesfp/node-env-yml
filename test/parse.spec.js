@@ -1,4 +1,4 @@
-const { parse } = require("../src/parse");
+const parse = require("../src/parse");
 
 describe("parse", () => {
   it("should override default variables by env variables", () => {

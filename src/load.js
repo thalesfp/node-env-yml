@@ -1,7 +1,7 @@
 const fs = require("fs");
 const yaml = require("js-yaml");
 
-const { parse } = require("./parse");
+const parse = require("./parse");
 
 const defaultConfigPath = ".app.yml";
 const defaultEncoding = "utf8";
@@ -29,4 +29,4 @@ const load = (options = {}) => {
   });
 };
 
-module.exports = { load };
+module.exports = load;

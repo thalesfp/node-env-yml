@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const { load } = require("../src/load");
+const load = require("../src/load");
 
 const configFilePath = path.join(path.dirname(__filename), "app.yml");
 
