@@ -30,9 +30,9 @@ test:
 Reading the file:
 
 ```javascript
-const env = require('env-yml');
+const loadEnv = require('env-yml');
 
-env.load();
+loadEnv();
 
 console.log(process.env.DATABASE_HOST)
 console.log(process.env.DATABASE_PORT)
@@ -52,9 +52,9 @@ Optional configuration params:
 Usage:
 
 ```javascript
-const env = require('env-yml');
+const loadEnv = require('env-yml');
 
-env.load({
+loadEnv({
   path: 'myapp.yml',
   encoding: 'latin1',
   env: 'staging',
