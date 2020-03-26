@@ -22,7 +22,7 @@ const load = (options = {}) => {
   const doc = yaml.safeLoad(fs.readFileSync(configPath, encoding));
   const parsedObject = parse(doc, env);
 
-  Object.keys(parsedObject).forEach(key => {
+  Object.keys(parsedObject).forEach((key) => {
     if (!(key in process.env)) {
       process.env[key] = parsedObject[key];
     }

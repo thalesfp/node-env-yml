@@ -7,7 +7,7 @@ const configFilePath = path.join(path.dirname(__filename), "app.yml");
 
 const resetEnvVars = () =>
   ["DATABASE_HOST", "DATABASE_PORT", "DATABASE_USER"].forEach(
-    key => delete process.env[key],
+    (key) => delete process.env[key],
   );
 
 describe("load", () => {
