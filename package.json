@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "Environment variable loader using yml files",
   "main": "./src/load.js",
+  "types": "./src/index.d.ts",
   "scripts": {
     "test": "jest"
   },
