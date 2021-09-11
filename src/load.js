@@ -19,7 +19,7 @@ const load = (options = {}) => {
   const encoding = options.encoding ? options.encoding : defaultEncoding;
   const env = process.env.NODE_ENV ? process.env.NODE_ENV : defaultEnv;
 
-  const doc = yaml.safeLoad(fs.readFileSync(configPath, encoding));
+  const doc = yaml.load(fs.readFileSync(configPath, encoding));
   const parsedObject = parse(doc, env);
 
   Object.keys(parsedObject).forEach((key) => {
