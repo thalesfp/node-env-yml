@@ -1,6 +1,6 @@
 {
   "name": "env-yml",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Environment variable loader using yml files",
   "main": "./src/load.js",
   "types": "./src/index.d.ts",
