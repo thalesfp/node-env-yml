@@ -17,7 +17,7 @@ const defaultEnv = "development";
 const load = (options = {}) => {
   const configPath = options.path ? options.path : defaultConfigPath;
   const encoding = options.encoding ? options.encoding : defaultEncoding;
-  const env = process.env.NODE_ENV ? process.env.NODE_ENV : defaultEnv;
+  const env = options.env || process.env.NODE_ENV || defaultEnv;
 
   const doc = yaml.load(fs.readFileSync(configPath, encoding));
   const parsedObject = parse(doc, env);
